@@ -12,7 +12,6 @@ server.get('/', (req, res) => {
    res.render('index', {
       content: 'Hello Express and <em>EJS</em>!'
    });
-   console.log('hello world');
 });
 
 server.use('/api', apiRouter);
